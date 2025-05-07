@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 import MessagePage from './pages/MessagePage';
 import MiniGame from './pages/MiniGame';
 import FinalGift from './pages/FinalGift';
+import BunnyCarrotGame from './pages/BunnyCarrotGame';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -14,6 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path="/message" element={<MessagePage />} />
       <Route path="/game" element={<MiniGame />} />
       <Route path="/gift" element={<FinalGift />} />
+      <Route path="/minigame" element={<BunnyCarrotGame />} />
     </Routes>
   </BrowserRouter>
 );

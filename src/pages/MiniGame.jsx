@@ -25,7 +25,7 @@ function MiniGame() {
     setScore(score + 1);
     setEmojis(emojis.filter((emoji) => emoji.id !== id));
     if (score + 1 >= 10) {
-      setTimeout(() => navigate('/gift'), 1000);
+      setTimeout(() => navigate('/minigame'), 1000);
     }
   };
 
@@ -51,7 +51,7 @@ function MiniGame() {
       {score >= 10 && (
         <div className="absolute inset-0 flex items-center justify-center bg-pink-500 bg-opacity-75">
           <h2 className="text-3xl font-poppins text-white">
-            Bạn đã mở được quà bí mật! 🎉
+            Bạn đã qua màn. Hãy típ tục. ❤️
           </h2>
         </div>
       )}
