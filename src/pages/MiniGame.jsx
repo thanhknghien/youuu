@@ -32,7 +32,8 @@ function MiniGame() {
   return (
     <div className="min-h-screen bg-pink-100 relative overflow-hidden">
       <div className="absolute top-4 left-4 text-2xl font-poppins text-pink-600">
-        DUNG LAM TRAI TIM A DAU :)))
+        DUNG LAM TRAI TIM A DAU :)))<br/>
+        Chạm để tăng thêm niềm dui<br/>
         Điểm: {score}
       </div>
       {emojis.map((emoji) => (
